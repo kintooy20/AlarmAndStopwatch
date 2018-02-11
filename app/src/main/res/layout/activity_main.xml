@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="false"
+    android:background="#DDDFDD"
+    tools:context="com.gimenez.kent.alarmandstopwatch.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="7dp"
+            android:tint="#0000"
+            app:srcCompat="@drawable/ic_access_alarm_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img1"
+            android:layout_alignStart="@+id/img1"
+            android:layout_below="@+id/img1"
+            android:text="Alarm"
+            android:textColor="#000" />
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="7dp"
+            android:tint="#0000"
+            app:srcCompat="@drawable/ic_watch_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img2"
+            android:layout_alignStart="@+id/img2"
+            android:layout_below="@+id/img2"
+            android:text="Stopwatch"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
